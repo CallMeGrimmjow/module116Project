@@ -1,0 +1,149 @@
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    visibility: hidden;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+/*JHIN BANNER START*/
+.jhin-banner {
+    position: relative;
+    min-width:2.8vw;
+    text-align: center;
+    color: blueviolet;
+}
+
+@media screen and (min-width: 600px) {
+    .jhin-banner {
+        position: relative;
+        font-size: 3vw;
+        text-align: center;
+        color: blueviolet;
+    }
+}
+
+.jhin-banner h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+}
+
+/*JHIN BANNER END*/
+
+
+/*LORE START*/
+#sbio-vid {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 875px) {
+    #sbio-vid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/*SMALL BIO START*/
+#small-bio {
+    max-width: 45ch;
+    text-align: justify;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    #small-bio {
+        max-width: 45ch;
+        text-align: justify;
+        margin: auto 0.5rem
+    }
+}
+
+/*SMALL BIO END*/
+
+/*PRE-RELEASE VIDEO START*/
+#pre-release-video {
+    margin: 1rem 0.5rem auto 0;
+}
+
+@media screen and (max-width: 600px) {
+    #pre-release-video {
+        margin: 1rem 0.5rem auto 0.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #pre-release-video iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/*PRE-RELEASE VIDEO END*/
+
+
+/*BIG BIO START*/
+#big-bio {
+    display: flex;
+    flex-direction: column;
+}
+
+#jhin-bio {
+    text-align: center;
+    margin: 2rem auto 1rem auto;
+}
+
+.jhin-bio-sub {
+    margin: 1rem auto;
+    max-width: 70ch;
+}
+
+@media screen and (max-width: 600px) {
+    .jhin-bio-sub {
+        margin: 1rem 0.5rem;
+        max-width: 70ch;
+    }
+}
+
+/*BIG BIO END*/
+
+/*STORY START*/
+#jhin-story {
+    display: flex;
+    flex-direction: column;
+}
+
+#jhin-story h2, h5 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#jhin-story h5 {
+    margin-top: 0;
+    color: lightslategray;
+}
+
+.jhin-story-chapter {
+    text-align: center;
+}
+
+.jhin-story-sub {
+    margin: 1rem auto;
+    max-width: 70ch;
+}
+
+/*STORY END*/
+/*LORE END*/
+
+

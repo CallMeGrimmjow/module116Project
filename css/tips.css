@@ -1,0 +1,139 @@
+h2 {
+    color: mediumvioletred;
+}
+
+/*JHIN BANNER START*/
+.jhin-banner5 {
+    position: relative;
+    min-width:2.8vw;
+    text-align: center;
+    color: mediumvioletred;
+}
+
+@media screen and (min-width: 600px) {
+    .jhin-banner5 {
+        position: relative;
+        font-size: 3vw;
+        text-align: center;
+        color: blueviolet;
+    }
+}
+
+.jhin-banner5 h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+}
+
+/*JHIN BANNER END*/
+
+
+/*HOW TO PLAY START*/
+    #how-to-play {
+
+    }
+/*RUNES/BUILDS START*/
+#runes-builds h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#runes-builds p {
+    text-align: center;
+}
+
+/*RUNES/BUILDS END*/
+
+/*STRENGTHS/WEAKNESSES START*/
+#good-bad h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#good-bad-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 875px) {
+    #good-bad-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+#good-bad-flex ul {
+    margin: 0.5rem;
+}
+
+.good-bad-list-item li:first-child {
+    color: green;
+    font-weight: 900;
+    list-style: none;
+}
+
+.good-bad-list-item:last-child li:first-child {
+    color: red;
+    font-weight: 900;
+    list-style: none;
+}
+/*STRENGTHS/WEAKNESSES END*/
+
+/*GAME PLAN START*/
+#game-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-plan h2, h3 {
+    margin-bottom: 0;
+}
+
+#game-plan h4 {
+    margin: 0 auto;
+    color: dimgray;
+}
+
+#game-plan p {
+    text-align: left;
+    max-width: 75ch;
+    margin: 1.25rem 0.5rem 0 0.5rem;
+}
+/*GAME PLAN END*/
+
+/*TIPS START*/
+#jhin-tips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#jhin-tips h2 {
+    margin-bottom: 0;
+}
+
+#jhin-tips li {
+    max-width: 75ch;
+}
+/*TIPS END*/
+
+/*QUESTIONS START*/
+#more-about-jhin {
+    text-align: center;
+}
+
+#more-about-jhin h2 {
+    margin-bottom: 0;
+}
+/*QUESTIONS END*/
+/*HOW TO PLAY END*/

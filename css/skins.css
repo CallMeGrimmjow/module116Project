@@ -1,0 +1,83 @@
+h2 {
+    color: darkgoldenrod;
+}
+
+/*JHIN BANNER START*/
+.jhin-banner3 {
+    position: relative;
+    min-width:2.8vw;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+@media screen and (min-width: 600px) {
+    .jhin-banner3 {
+        position: relative;
+        font-size: 3vw;
+        text-align: center;
+        color: blueviolet;
+    }
+}
+
+.jhin-banner3 h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+}
+
+/*JHIN BANNER END*/
+
+
+/*SKINS START*/
+.skins-title {
+    text-align: center;
+    margin-bottom: 0.45rem;
+}
+
+/*SKINS LIST START*/
+#skins {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows:repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 1250px) {
+    #skins {
+        display: grid;
+        gap: 1rem;
+        grid-template-rows:repeat(8, 1fr);
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}
+
+.skins-table {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 1250px) {
+    .skins-table {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.specific-skin-table {
+    text-align: left;
+}
+
+.skin-img {
+    margin: auto 0.5rem;
+    max-width: 100%;
+    height: auto;
+}
+
+/*SKINS LIST END*/
+/*SKINS END*/

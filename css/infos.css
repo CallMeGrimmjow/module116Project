@@ -1,0 +1,110 @@
+h2 {
+    color: #2F4F4F;
+}
+
+/*JHIN BANNER START*/
+.jhin-banner2 {
+    position: relative;
+    min-width:2.8vw;
+    text-align: center;
+    color: darkslategray;
+}
+
+@media screen and (min-width: 600px) {
+    .jhin-banner2 {
+        position: relative;
+        font-size: 3vw;
+        text-align: center;
+        color: darkslategray;
+    }
+}
+
+.jhin-banner2 h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+    border-radius: 10%;
+}
+
+/*JHIN BANNER END*/
+
+
+/*ABILITIES START*/
+#jhin-abilities-title h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#jhin-abilities {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+}
+
+#jhin-abilities-video {
+    justify-self: center;
+    align-self: center;
+    margin: auto 0.5rem;
+}
+
+@media screen and (max-width: 600px){
+    #jhin-abilities-video iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
+/*ABILITIES END*/
+
+/*SKILLS ORDER START*/
+#skills-order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0.8rem;
+}
+
+#jhin-skills-order-title h2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#skills-order p {
+    max-width: 35ch;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+/*SKILLS ORDER END*/
+
+/*FORM START*/
+#random-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+#random-form h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+form, input[type=text], [type=email], [type=number], [type=submit], select {
+    max-width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    outline: none;
+}
+
+input[type=submit] {
+    text-align: center;
+    background-color: white;
+}
+
+/*FORM END*/

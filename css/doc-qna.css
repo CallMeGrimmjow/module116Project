@@ -1,0 +1,84 @@
+.nav-list {
+    background-image:linear-gradient(to bottom,rgba(35, 35, 35, 0.8), transparent 80%) ;
+}
+
+li.nav-item a{
+    color: antiquewhite;
+}
+
+/*JHIN BANNER START*/
+.jhin-banner6 {
+    position: relative;
+    min-width:2.8vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
+@media screen and (min-width: 600px) {
+    .jhin-banner6 {
+        position: relative;
+        font-size: 3vw;
+        text-align: center;
+        color: whitesmoke;
+    }
+}
+
+.jhin-banner6 h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*JHIN BANNER END*/
+
+
+/*QUESTIONS START*/
+#questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+
+#questions h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#questions h4 {
+    margin-bottom: 0;
+}
+
+#questions p {
+    max-width: 75ch;
+    text-align: center;
+}
+/*QUESTIONS END*/
+
+
+/*DOC START*/
+#doc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#doc h3 {
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    max-width: 65ch;
+    margin-bottom: 0;
+}
+
+#doc ul {
+    line-height: 1.15;
+
+}
+/*DOC END*/
